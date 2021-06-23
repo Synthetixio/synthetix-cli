@@ -31,12 +31,16 @@
 		"node": ">=8.10.0"
 	},
 	"dependencies": {
+		"axios": "0.21.1",
+		"node-fetch": "^2.6.1",
+		"cross-fetch": "^3.1.0",
 		"chalk": "^4.1.0",
 		"commander": "^6.1.0",
 		"dotenv": "^6.1.0",
 		"ethers": "^5.0.17",
 		"inquirer": "^7.3.3",
 		"inquirer-list-search-prompt": "^1.0.2",
+		"@snapshot-labs/snapshot.js": "0.1.4",
 		"synthetix": "2.45.2"
 	},
 	"devDependencies": {
